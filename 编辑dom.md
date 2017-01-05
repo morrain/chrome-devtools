@@ -140,3 +140,8 @@
 
 ### DOM断点操作
 
+**Elements**面板和**Sources**面板均提供管理操作DOM断点的窗口。在DOM断点窗口中，列举了所有设置的DOM断点，每个断点有DOM结点的标识符和DOM断点类型。如下图所示
+
+![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/dom-breakpoints-pane.png)
+
+
