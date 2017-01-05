@@ -43,3 +43,9 @@
    * **Down Arrow**选中下面一个节点
    * **Right Arrow**展开折叠的节点。再摁一次，选中该节点的第一个孩子节点。
    * **Left Arrow**收起展开的节点。
+   
+#### 导航面包屑
+
+在**Elements**面板下方显示当前选中节点的面包屑。
+
+![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/breadcrumb-body.png)
