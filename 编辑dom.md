@@ -154,3 +154,6 @@ DOM断点触发发，该DOM断点会被高亮。调用栈窗口会显示中断�
 
 ![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/breakpoint-reason.png)
 
+### 查看DOM节点的事件监听
+
+
