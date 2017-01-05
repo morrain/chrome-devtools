@@ -87,5 +87,9 @@
 
 ![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/edit-as-html.png)
 
+### 移动DOM节点
 
+点击要移动的节点，拖动它进行移动，到目标位置后松开即可。
+
+![](http://i1.piimg.com/582863/69cfc0cbf1860a32.gif)
 
