@@ -144,4 +144,11 @@
 
 ![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/dom-breakpoints-pane.png)
 
+可通过如下方式操作列表中的DOM断点：
+
+* **Hover**DOM断点上的DOM节点标识符，会在页面中高亮该节点，用于指示该节点在页面中的位置。
+* 点击会选中相应DOM节点
+* 点击左侧的checkbox会切换启用和禁用该断点的状态
+
+
 
