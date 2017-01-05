@@ -181,3 +181,7 @@ useCapture | bool值，指明addEventListener函数中是否设置useCapture
 
 ![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/ancestors-disabled.png)
 
+#### 查看框架事件监听
+
+
+
