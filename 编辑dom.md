@@ -156,5 +156,6 @@ DOM断点触发发，该DOM断点会被高亮。调用栈窗口会显示中断�
 
 ### 查看DOM节点的事件监听
 
-在**Event Listeners**窗口可以查看选中节点的事件监听。
+在**Event Listeners**窗口可以查看选中节点的事件监听。如下图所示
 
+![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/event-listeners-pane.png)
