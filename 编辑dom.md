@@ -150,5 +150,7 @@
 * 点击会选中相应DOM节点
 * 点击左侧的checkbox会切换启用和禁用该断点的状态
 
+DOM断点触发发，该DOM断点会被高亮。调用栈窗口会显示中断的原因，如下图所示：
 
+![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/breakpoint-reason.png)
 
