@@ -54,4 +54,7 @@
 
 ![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/breadcrumb-footer.png)
 
+通过点击面包屑中的节点能快速定位到祖先结点。
+
+![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/breadcrumb-trail.png)
 
