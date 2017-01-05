@@ -81,3 +81,7 @@
 
 #### 以HTML格式编辑DOM节点及其子结点
 
+* 打开**更多操作**菜单，选择**Edit as HTML**选项
+* `Ctrl+Enter` (Windows / Linux) 或者  `Cmd+Enter` (Mac) 保存修改后的结果
+* `ESC`键退出编辑模式，不保存所做的更改
+
