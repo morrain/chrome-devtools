@@ -173,3 +173,10 @@ useCapture | bool值，指明addEventListener函数中是否设置useCapture
 
 #### 查看祖先的事件监听
 
+当**Ancestors**被勾上时，当前选择节点祖先上注册的事件监听也会显示在列表中。
+
+![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/ancestors-enabled.png)
+
+当**Ancestors**未被勾上时，列表中只显示当前选择节点上注册的事件监听。
+
+![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/ancestors-disabled.png)
