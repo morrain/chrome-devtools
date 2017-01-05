@@ -68,4 +68,4 @@
 
 * 直接在节点以及属性上双击
 * 高亮节点，按**Enter**键，然后按**Tab**键，直到想要修改的属性被选中。
-* 在选中节点上右击，选择**Add Attribute**或者**Edit Attribute**选项。
+* 在选中节点上右击，选择**Add Attribute**或者**Edit Attribute**选项。其中**Edit Attribute**是上下文敏感的，点击哪个属性编辑哪个属性。
