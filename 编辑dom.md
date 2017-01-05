@@ -112,4 +112,16 @@
 
 #### 子树修改
 
+当DOM节点的子节点被删除、移动或者新增加子节点。**子树修改**类型的DOM断点会被触发。例如，如果在`main-content`节点上设置了该断点，如下代码会触发该断点。
+
+`var element = document.getElementById('main-content');`
+
+`//modify the element's subtree.`
+
+`var mySpan = document.createElement('span');`
+
+`element.appendChild( mySpan );`
+
+#### 属性修改
+
 
