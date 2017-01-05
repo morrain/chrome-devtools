@@ -17,4 +17,7 @@
  
 审查元素的方法不止一种，例如：
 
-在任意页面元素上右键，选择**审查元素**选项。
+在任意页面元素上右击，选择**审查元素**选项。如下图
+
+![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/right-click-inspect.png)
+
