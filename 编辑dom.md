@@ -28,7 +28,12 @@
 
 ### DOM树导航
 
+可以通过鼠标或者键盘对DOM树中的节点进行展开和折叠操作。
+
 折叠的节点，左侧有一个指向右方的箭头：![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/collapsed-node.png)
 
 展开的节点，左侧有一个指向下方的箭头：![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/expanded-node.png)
 
+* 使用鼠标
+   * 单击一次，高亮此节点
+* 使用键盘
