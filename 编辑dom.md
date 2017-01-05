@@ -23,4 +23,6 @@
 
 2. 在谷歌浏览器中，使用快捷键`Ctrl + Shift + C `(Windows)或者`Cmd + Shift + C` (Mac)，直接打开谷歌开发者工具，并且使之处于审查元素状态，然后移动鼠标，谷歌开发者工具自动高亮鼠标下面的元素，确定要选择的元素后，在上面点击后退出审查元素模式，同时在**Elements**面板中高亮显示所选择的元素。
 
-3. 在已经打开谷歌开发者工具的情况下，点击**审查元素**摁钮![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/inspect-icon.png)进入审查元素模式，重复**步骤2**
+3. 在已经打开谷歌开发者工具的情况下，点击**审查元素**摁钮![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/inspect-icon.png)进入审查元素模式，重复**步骤2**。
+
+4. 在控制台面板使用[inspect](命令行.md)方法，例如 `inspect(document.body)`。
