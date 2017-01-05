@@ -62,3 +62,9 @@
 
 ![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/breadcrumb-ellipsis.png)
 
+### 编辑DOM结点以及属性
+
+通过如下途径编辑：
+
+* 直接在节点以及属性上双击
+* 高亮节点，按**Enter**键，然后按**Tab**键，直到想要修改的属性被选中。
