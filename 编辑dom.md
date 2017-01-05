@@ -132,3 +132,5 @@
 
 `element.className = 'active';`
 
+#### 节点移除
+
