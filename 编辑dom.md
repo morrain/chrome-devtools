@@ -49,3 +49,9 @@
 在**Elements**面板下方显示当前选中节点的面包屑。
 
 ![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/breadcrumb-body.png)
+
+当前选中的节点呈高亮蓝色。左边是当前选中节点的父节点，左边的左边是父节点的父节点，类推直到根节点。
+
+![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/breadcrumb-footer.png)
+
+
