@@ -160,4 +160,8 @@ DOM断点触发发，该DOM断点会被高亮。调用栈窗口会显示中断�
 
 ![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/event-listeners-pane.png)
 
+可见，第一级显示了被注册了事件监听的事件类型，如click。点击事件类型左侧的箭头，展开显示了所有事件处理器。事件处理器用一个类似CSS选择器一样的元素标识符进行标识，如`document`、`button#call-to-action`。如果相同元素上注册了多个事件处理器，这里会一一列举出来。
+
+点击元素识别符左侧的展开箭头，可以查看事件处理器的属性。
+
 
