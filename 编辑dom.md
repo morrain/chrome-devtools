@@ -124,4 +124,11 @@
 
 #### 属性修改
 
-当DOM节点的属性(`class、id、name等等`)被修改时触发。
+当DOM节点的属性(`class、id、name等等`)被JavaScript修改时触发。
+
+`var element = document.getElementById('main-content');`
+
+`// class attribute of element has been modified.`
+
+`element.className = 'active';`
+
