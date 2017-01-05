@@ -58,3 +58,7 @@
 
 ![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/breadcrumb-trail.png)
 
+谷歌开发者工具能够在导航面包屑中显示足够长的路径，当长到整个状态栏显示不下的时候，会显示省略号，点击省略号，会显示被隐藏的部分。
+
+![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/breadcrumb-ellipsis.png)
+
