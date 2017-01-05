@@ -93,3 +93,6 @@
 
 ![](http://i1.piimg.com/582863/69cfc0cbf1860a32.gif)
 
+### 删除DOM节点
+
+
