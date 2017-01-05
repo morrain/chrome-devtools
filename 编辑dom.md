@@ -98,3 +98,11 @@
 * 打开**更多操作**菜单，选择**Delete Node**选项
 * 选中节点，然后按**Delete**键
 
+### 滚动到可视区域
+
+当鼠标hover或者选中一个DOM节点时，视窗内相应节点会被高亮。如果该结点此时滚动到视窗外，你会看到一个提示。如果该节点在视窗上方，刚提示在视窗顶部，如果该节点在视窗下方，刚提示在视窗底部。如下图所示，在**Elements**面板中选择的元素在视窗下方。
+
+![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/below-viewport.png)
+
+打开**更多操作**菜单，选择**Scroll into View**选项，便可将选中的元素滚动到视窗可视区域。
+
