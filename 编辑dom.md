@@ -85,3 +85,5 @@
 * **Ctrl+Enter** (Windows / Linux) 或者  **Cmd+Enter** (Mac) 保存修改后的结果
 * **ESC**键退出编辑模式，不保存所做的更改
 
+![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/edit-as-html.png)
+
