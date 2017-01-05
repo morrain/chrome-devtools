@@ -25,3 +25,6 @@
 3. 在已经打开谷歌开发者工具的情况下，点击**审查元素**摁钮![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/inspect-icon.png)进入审查元素模式，重复**步骤2**。
 
 4. 在控制台面板使用[inspect](命令行.md)方法，例如 `inspect(document.body)`。
+
+### DOM树导航
+
