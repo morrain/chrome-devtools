@@ -134,3 +134,7 @@
 
 #### 节点移除
 
+当节点被移除时触发。
+
+`document.getElementById('main-content').remove();`
+
