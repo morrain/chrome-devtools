@@ -64,7 +64,7 @@
 
 ### 打开更多操作菜单
 
-通过**更多操作**菜单，我们可以和DOM结点进行多种交互操作。可以通过在DOM节点上右击，或者点击当前选择节点左侧的**更多操作**摁钮来打开**更多操作**菜单。
+通过**更多操作**菜单，我们可以和DOM结点进行多种交互操作。可以通过在DOM节点上右击，或者点击当前选择节点左侧的**更多操作**摁钮来打开**更多操作**菜单。如下图所示：
 
 ![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/more-actions-menu.png)
 
