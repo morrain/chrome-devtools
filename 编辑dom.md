@@ -183,5 +183,14 @@ useCapture | bool值，指明addEventListener函数中是否设置useCapture
 
 #### 查看框架事件监听
 
+一些第三方的JavaScript框架，如jQuery等，包装了原生的DOM事件注册，提供给使用者他们自已的事件注册接口。过去，通过第三方库注册的事件使得使用谷歌工发者工具定位事件处理函数变得异常困难，因为事件处理程序会被定位到框架库中的代码。框架事件监听解决了这一问题。
 
+当**Framework listeners**被勾上时，谷歌开发者工具会自动解析被框架包装过的代码，进而告诉你实际通过你的代码注册的事件处理函数在哪里。
 
+![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/framework-listeners-enabled.png)
+
+当**Framework listeners**未被勾上时，事件处理函数仅指向框架库的代码。如下图所示
+
+![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/framework-listeners-disabled.png)
+
+> 此特性依赖于谷歌开发者工具支持了哪些框架库，并不是所有的框架库都能被谷歌开发者工具自动解析。
