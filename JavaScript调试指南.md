@@ -87,3 +87,7 @@ function factorial(n) {
 }
 ```
 ![](https://developers.google.com/web/tools/chrome-devtools/javascript/imgs/restart-frame.png)
+
+#### 恢复代码执行
+
+点击**Resume Script Execution**摁钮![](https://developers.google.com/web/tools/chrome-devtools/images/resume-script-execution.png)
