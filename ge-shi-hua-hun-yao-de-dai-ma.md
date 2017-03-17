@@ -4,3 +4,6 @@
 
 ![](https://developers.google.com/web/tools/chrome-devtools/javascript/imgs/pretty-print-off.jpg)
 
+此时你可以通过点击代码面板左下方的花括号![](https://developers.google.com/web/tools/chrome-devtools/javascript/imgs/prettyprint-icon.png)来格式化混淆后的代码。格式化后的代码在一个新的标签页中显示，并基本恢复了代码原有的结构。如下图所示：
+
+![](https://developers.google.com/web/tools/chrome-devtools/javascript/imgs/pretty-print-on.jpg)
