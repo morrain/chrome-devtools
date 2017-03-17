@@ -68,3 +68,5 @@ function getName() {
 
 当调试一个非常长的函数时，很多的代码与所调试的问题并无关系，当然你可以一行一行逐步执行到可能与所调试问题有关系的那一行，当然你还可以在那一行设置代码行断点，然后点击**Resume Script Execution**![](https://developers.google.com/web/tools/chrome-devtools/images/resume-script-execution.png)恢复代码执行，直到中断到刚才设置的代码行断点。其实，有更快捷的方法。
 在刚才设置断点的那一行代码右击，菜单中选择**Continue to Here**，谷歌开发者工具会恢复代码执行到该行，然后中断下来。
+
+![](http://p1.bpimg.com/582863/4ce654328261717c.png)
