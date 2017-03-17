@@ -51,3 +51,17 @@ function getName() {
 ![](http://p1.bpimg.com/582863/81f55dcf8f6920e7.png)
 
 例如：假设代码执行到A，点击**Step out**，谷歌开发者工具会执行完getName函数中剩下的代码，然后中断在C的位置。
+
+
+```
+function updateHeader() {
+  var day = new Date().getDay();
+  var name = getName();
+  updateName(name); // C
+}
+function getName() {
+  var name = app.first + ' ' + app.last; // A
+  return name; // B
+}
+```
+
