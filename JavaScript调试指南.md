@@ -44,4 +44,8 @@ function getName() {
   return name;
 }
 ```
+#### Step out of line of code
 
+当代码逐步执行到一个和所调试问题无关的函数内部时，点击**Step out**摁钮![](https://developers.google.com/web/tools/chrome-devtools/javascript/imgs/step-out.png)跳出该函数，中断在函数调用处的下一行。如下图蓝框所示：
+
+![](http://p1.bpimg.com/582863/81f55dcf8f6920e7.png)
