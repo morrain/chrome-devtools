@@ -6,12 +6,12 @@
 
 #### Step over line of code
 
-当逐步执行的过程中遇到函数时，该函数又与调试的问题没什么关系，我们并不关心函数内部执行结果时，我们可以点击Step over摁钮![](https://developers.google.com/web/tools/chrome-devtools/javascript/imgs/step-over.png)执行完该函数，而无需跳入函数内部执行。如下图蓝框所示：
+当逐步执行的过程中遇到函数时，该函数又与调试的问题没什么关系，我们并不关心函数内部执行结果时，我们可以点击**Step over**摁钮![](https://developers.google.com/web/tools/chrome-devtools/javascript/imgs/step-over.png)执行完该函数，而无需跳入函数内部执行。如下图蓝框所示：
 
 ![](http://p1.bqimg.com/582863/d68e3d905e8d01b2.png)
 
 
-例如：假设你现在正在调试如下代码
+例如：假设你现在正在调试如下代码，现在执行到A，点击**Step over**，谷歌开发者工具会执行完B和C的代码，然后中断在D的位置。
 
 ```
 function updateHeader() {
@@ -24,4 +24,10 @@ function getName() {
   return name; // C
 }
 ```
+
+#### Step into line of code 
+
+当逐步执行到一个函数，我们关心内部执行情况时，点击**Step into**摁钮![](https://developers.google.com/web/tools/chrome-devtools/javascript/imgs/step-into.png)，进入函数内部逐步执行。如下图蓝框所示：
+
+![](http://p1.bqimg.com/582863/d599df677a59f192.png)
 
