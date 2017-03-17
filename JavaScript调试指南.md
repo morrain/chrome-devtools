@@ -31,3 +31,17 @@ function getName() {
 
 ![](http://p1.bqimg.com/582863/d599df677a59f192.png)
 
+例如：假设逐步执行到A，点击**Step into**摁钮，谷歌开发者工具会进入到getName函数内部，中断在B位置，然后逐步执行。
+
+```
+function updateHeader() {
+  var day = new Date().getDay();
+  var name = getName(); // A
+  updateName(name);
+}
+function getName() {
+  var name = app.first + ' ' + app.last; // B
+  return name;
+}
+```
+
