@@ -90,4 +90,6 @@ function factorial(n) {
 
 #### 恢复代码执行
 
-点击**Resume Script Execution**摁钮![](https://developers.google.com/web/tools/chrome-devtools/images/resume-script-execution.png)
+点击**Resume Script Execution**摁钮![](https://developers.google.com/web/tools/chrome-devtools/images/resume-script-execution.png)，恢复代码执行，只到遇到下一个断点，如果有的话。
+
+![](http://i1.piimg.com/582863/97c8e6ed79083138.png)
