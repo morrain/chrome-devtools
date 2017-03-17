@@ -86,4 +86,4 @@ function factorial(n) {
   return product; // A
 }
 ```
-
+![](https://developers.google.com/web/tools/chrome-devtools/javascript/imgs/restart-frame.png)
