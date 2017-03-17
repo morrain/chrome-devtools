@@ -66,4 +66,4 @@ function getName() {
 ```
 #### 执行到指定行
 
-当调试一个非常长的函数时，很多的代码与所调试的问题并无关系，当然你可以一行一行逐步执行到可能与所调试问题有关系的那一行，当然你还可以在那一行设置代码行断点，然后点击**Resume Script Execution**![](https://developers.google.com/web/tools/chrome-devtools/images/resume-script-execution.png)
+当调试一个非常长的函数时，很多的代码与所调试的问题并无关系，当然你可以一行一行逐步执行到可能与所调试问题有关系的那一行，当然你还可以在那一行设置代码行断点，然后点击**Resume Script Execution**![](https://developers.google.com/web/tools/chrome-devtools/images/resume-script-execution.png)恢复代码执行，直到中断到刚才设置的代码行断点。
