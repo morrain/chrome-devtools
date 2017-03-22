@@ -22,7 +22,7 @@
 
 2. 在谷歌浏览器中，使用快捷键`Ctrl + Shift + C `(Windows)或者`Cmd + Shift + C` (Mac)，直接打开谷歌开发者工具，并且使之处于审查元素状态，然后移动鼠标，谷歌开发者工具自动高亮鼠标下面的元素，确定要选择的元素后，在上面点击后退出审查元素模式，同时在**Elements**面板中高亮显示所选择的元素。
 
-3. 在已经打开谷歌开发者工具的情况下，点击**审查元素**摁钮![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/inspect-icon.png)进入审查元素模式，重复**步骤2**。
+3. 在已经打开谷歌开发者工具的情况下，点击**审查元素**摁钮![](/assets/element/inspect-icon.png)进入审查元素模式，重复**步骤2**。
 
 4. 在控制台面板使用[inspect](命令行.md)方法，例如 `inspect(document.body)`。
 
@@ -30,9 +30,9 @@
 
 可以通过鼠标或者键盘对DOM树中的节点进行展开和折叠操作。
 
-折叠的节点，左侧有一个指向右方的箭头：![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/collapsed-node.png)
+折叠的节点，左侧有一个指向右方的箭头：![](/assets/element/collapsed-node.png)
 
-展开的节点，左侧有一个指向下方的箭头：![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/expanded-node.png)
+展开的节点，左侧有一个指向下方的箭头：![](/assets/element/expanded-node.png)
 
 * 使用鼠标
    * 单击一次，高亮此节点
@@ -48,25 +48,25 @@
 
 在**Elements**面板下方显示当前选中节点的面包屑。
 
-![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/breadcrumb-body.png)
+![](/assets/element/breadcrumb-body.png)
 
 当前选中的节点呈高亮蓝色。左边是当前选中节点的父节点，左边的左边是父节点的父节点，类推直到根节点。
 
-![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/breadcrumb-footer.png)
+![](/assets/element/breadcrumb-footer.png)
 
 通过点击面包屑中的节点能快速定位到祖先结点。
 
-![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/breadcrumb-trail.png)
+![](/assets/element/breadcrumb-trail.png)
 
 谷歌开发者工具能够在导航面包屑中显示足够长的路径，当长到整个状态栏显示不下的时候，会显示省略号，点击省略号，会显示被隐藏的部分。
 
-![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/breadcrumb-ellipsis.png)
+![](/assets/element/breadcrumb-ellipsis.png)
 
 ### 打开更多操作菜单
 
 通过**更多操作**菜单，我们可以和DOM结点进行多种交互操作。可以通过在DOM节点上右击，或者点击当前选择节点左侧的**更多操作**摁钮来打开**更多操作**菜单。如下图所示：
 
-![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/more-actions-menu.png)
+![](/assets/element/more-actions-menu.png)
 
 
 ### 编辑DOM结点以及属性
@@ -85,7 +85,7 @@
 * **Ctrl+Enter** (Windows / Linux) 或者  **Cmd+Enter** (Mac) 保存修改后的结果
 * **ESC**键退出编辑模式，不保存所做的更改
 
-![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/edit-as-html.png)
+![](/assets/element/edit-as-html.png)
 
 ### 移动DOM节点
 
@@ -102,7 +102,7 @@
 
 当鼠标hover或者选中一个DOM节点时，视窗内相应节点会被高亮。如果该结点此时滚动到视窗外，你会看到一个提示。如果该节点在视窗上方，刚提示在视窗顶部，如果该节点在视窗下方，刚提示在视窗底部。如下图所示，在**Elements**面板中选择的元素在视窗下方。
 
-![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/below-viewport.png)
+![](/assets/element/below-viewport.png)
 
 打开**更多操作**菜单，选择**Scroll into View**选项，便可将选中的元素滚动到视窗可视区域。
 
@@ -142,7 +142,7 @@
 
 **Elements**面板和**Sources**面板均提供管理操作DOM断点的窗口。在DOM断点窗口中，列举了所有设置的DOM断点，每个断点有DOM结点的标识符和DOM断点类型。如下图所示
 
-![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/dom-breakpoints-pane.png)
+![](/assets/element/dom-breakpoints-pane.png)
 
 可通过如下方式操作列表中的DOM断点：
 
@@ -152,13 +152,13 @@
 
 DOM断点触发发，该DOM断点会被高亮。调用栈窗口会显示中断的原因，如下图所示：
 
-![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/breakpoint-reason.png)
+![](/assets/element/breakpoint-reason.png)
 
 ### 查看DOM节点的事件监听
 
 在**Event Listeners**窗口可以查看选中节点的事件监听。如下图所示
 
-![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/event-listeners-pane.png)
+![](/assets/element/event-listeners-pane.png)
 
 可见，第一级显示了被注册了事件监听的事件类型，如click。点击事件类型左侧的箭头，展开显示了所有事件处理器。事件处理器用一个类似CSS选择器一样的元素标识符进行标识，如`document`、`button#call-to-action`。如果相同元素上注册了多个事件处理器，这里会一一列举出来。
 
@@ -175,11 +175,11 @@ useCapture | bool值，指明addEventListener函数中是否设置useCapture
 
 当**Ancestors**被勾上时，当前选择节点祖先上注册的事件监听也会显示在列表中。
 
-![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/ancestors-enabled.png)
+![](/assets/element/ancestors-enabled.png)
 
 当**Ancestors**未被勾上时，列表中只显示当前选择节点上注册的事件监听。
 
-![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/ancestors-disabled.png)
+![](/assets/element/ancestors-disabled.png)
 
 #### 查看框架事件监听
 
@@ -187,10 +187,10 @@ useCapture | bool值，指明addEventListener函数中是否设置useCapture
 
 当**Framework listeners**被勾上时，谷歌开发者工具会自动解析被框架包装过的代码，进而告诉你实际通过你的代码注册的事件处理函数在哪里。
 
-![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/framework-listeners-enabled.png)
+![](/assets/element/framework-listeners-enabled.png)
 
 当**Framework listeners**未被勾上时，事件处理函数仅指向框架库的代码。如下图所示
 
-![](https://developers.google.cn/web/tools/chrome-devtools/inspect-styles/imgs/framework-listeners-disabled.png)
+![](/assets/element/framework-listeners-disabled.png)
 
 > 此特性依赖于谷歌开发者工具支持了哪些框架库，并不是所有的框架库都能被谷歌开发者工具自动解析。
