@@ -1,1 +1,1 @@
-![](http://p1.bpimg.com/582863/2d8846da401b46fa.jpg)
+![](cover.jpg)
