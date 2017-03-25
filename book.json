@@ -1,9 +1,12 @@
 {
-    "plugins": ["atoc"],
-    "pluginsConfig": {
-        "atoc": {
-            "addClass": true,
-            "className": "atoc"
-        }
+  "plugins": [
+    "etoc"
+  ],
+  "pluginsConfig": {
+    "etoc": {
+      "mindepth": 3,
+      "maxdepth": 4,
+      "notoc": false
     }
+  }
 }
